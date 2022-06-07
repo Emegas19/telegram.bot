@@ -3,8 +3,10 @@ import telebot
 TOKEN = 'token'
 
 from telebot import types
+from telebot import apihelper
 
 bot = telebot.TeleBot(TOKEN)
+apihelper.SESSION_TIME_TO_LIVE = 5 * 60
 
 @bot.message_handler(commands=['start'])
 def welcome(message):
