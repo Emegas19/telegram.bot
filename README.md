@@ -1,3 +1,3 @@
-# telegramBotHerokuColab
+# telegramBot
 
 Тестовое описание
